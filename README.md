@@ -29,7 +29,10 @@ From terminal:
 1. Run MongoDB:
 $ mongod
 
-2. Run the myRetail-rest-api jar file:
+2. Build the jar file (Skip this step if you were provided the jar file)
+$ ./gradlew build
+
+3. Run the myRetail-rest-api jar file:
 java -jar build/libs/myRetail-rest-api-0.1.0.jar
 ```
 
@@ -56,6 +59,7 @@ This demonstrates retrieving an item we do not have the price for, then updating
 
 
 1. $ curl -X GET localhost:8080/product/13860419
+
 Response:
 ```
 {"title":"Some girls live from texas (DVD)"}
@@ -63,6 +67,7 @@ Response:
 
 
 2. $ curl -X PUT -d price=100.00 localhost:8080/product/13860419
+
 Response:
 ```
 {"title":"Some girls live from texas (DVD)","price":100.0}
