@@ -72,4 +72,10 @@ Response:
 ```
 {"title":"Some girls live from texas (DVD)","price":100.0}
 ```
+3. $ curl -X GET localhost:8080/product/13860419
+
+Response:
+```
+{"title":"Some girls live from texas (DVD)","price":100.0}
+```
 
