@@ -14,9 +14,15 @@ You can make a PUT request to the /product/{id} endpoint. This will add or updat
 MongoDB installed locally
 
 ```
-Installing MongoDB (On a Mac with homebrew): 
+Installing MongoDB (On a Mac with homebrew):
 $ brew install mongodb
 
+```
+
+Gradle, if you were not provided the jar file
+```
+Installing MongoDB (On a Mac with homebrew):
+$ brew install gradle
 ```
 
 ### Running
@@ -33,7 +39,7 @@ $ mongod
 $ ./gradlew build
 
 3. Run the myRetail-rest-api jar file:
-java -jar build/libs/myRetail-rest-api-0.1.0.jar
+$ java -jar build/libs/myRetail-rest-api-0.1.0.jar
 ```
 
 ## Use:
