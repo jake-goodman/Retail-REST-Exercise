@@ -9,7 +9,8 @@ public class MyRetailProduct {
     public String title;
     public Double price;
 
-    public MyRetailProduct() {};
+    public MyRetailProduct() {}
+
     public MyRetailProduct(String id, String title, Double price) {
         this.id = id;
         this.title = title;

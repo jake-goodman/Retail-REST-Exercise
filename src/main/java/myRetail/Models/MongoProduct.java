@@ -17,10 +17,4 @@ public class MongoProduct {
         this.price = price;
     }
 
-    @Override
-    public String toString() {
-        return String.format(
-                "MongoProduct[id=%s]",
-                id);
-    }
 }

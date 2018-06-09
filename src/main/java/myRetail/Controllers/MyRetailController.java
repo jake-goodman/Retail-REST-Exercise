@@ -14,6 +14,7 @@ import javax.annotation.PostConstruct;
 
 @RestController
 public class MyRetailController {
+
     @Autowired
     private MongoProductRepository repository;
     private RedSkyRestController redSkyClient = new RedSkyRestController();
